@@ -8,7 +8,7 @@ This repository provides a set of generic roles and reusable playbooks for deplo
 
 1. Update group_vars/all/all.yml to reflect your environment
 2. Update inventory.yml to reflect your environment
-3. Run `ansible-galaxy install -r requirements.yml -p ./roles` to download required roles from galaxy.
+3. Run `ansible-galaxy install -r roles/requirements.yml -p ./roles` to download required roles from galaxy.
 
 ## Roles Used By These Playbooks
 
@@ -18,7 +18,7 @@ This repository provides a set of generic roles and reusable playbooks for deplo
 4. [JBoss Fuse](https://github.com/rhtconsulting/jboss_fuse)
 
 ## Ansible Install and Version
-We are currently working against ansible 2.0.2.0 until [bugs in 2.1.0.0 are resolved](https://github.com/ansible/ansible/issues/16060). `pip` is the preferred installed method for now.
+We are currently working against ansible 2.1.1.0. `pip` is the preferred installed method for now: `pip install ansible==2.1.1.0`
 
 ## Transfer Methods
 
